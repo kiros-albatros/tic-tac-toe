@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.board {
+  max-width: 216px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  border: 1px solid purple;
+}
+
+.square {
+  width: 70px;
+  height: 70px;
+  border: 1px solid purple;
+  border-collapse: collapse;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.square:hover {
+  cursor: pointer;
+  background-color: rgb(240, 220, 240);
+} 
+
+.reset {
+  display: block;
+  margin: 30px auto;
+}
+
